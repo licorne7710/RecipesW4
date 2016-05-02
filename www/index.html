@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<!--
+  * Please see the included README.md file for license terms and conditions.
+  -->
+<head>
+    <title>My Favourite Recipes</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+    <!-- see http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/quick-tip-dont-forget-the-viewport-meta-tag -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=no">
+    <style>
+        /* following two viewport lines are equivalent to meta viewport statement above, needed for Windows */
+        /* see http://www.quirksmode.org/blog/archives/2014/05/html5_dev_conf.html and http://dev.w3.org/csswg/css-device-adapt/ */
+        @-ms-viewport { width: 100vw ; min-zoom: 100% ; zoom: 100% ; }  @viewport { width: 100vw ; min-zoom: 100% zoom: 100% ; }
+        @-ms-viewport { user-zoom: fixed ; min-zoom: 100% ; }           @viewport { user-zoom: fixed ; min-zoom: 100% ; }
+        html,body{margin:0;padding:0;}
+        header {width:100%;}
+        nav {
+            background: aliceblue;
+
+          }
+        nav ul {padding:25px;}
+
+          img {border:7px solid black;padding:5px;
+            width: 300px;
+          }
+
+          article {
+            margin-left: 3rem;
+
+                  }
+
+
+          h1 {
+            text-align: center;
+            background: blue;
+            color: white;
+          }
+        footer{width:100%;
+               background-color: aliceblue;
+                text-align: center;
+                border-top:0.1rem solid black;}
+    </style>
+
+    <!-- Uncomment the following scripts if you convert your "Standard HTML5" project into a "Cordova" project. -->
+    <!-- <script src="cordova.js"></script> -->          <!-- phantom library, needed for Cordova api calls, added during build -->
+    <!-- <script src="js/app.js"></script> -->           <!-- recommended location of your JavaScript code relative to other JS files -->
+    <!-- <script src="xdk/init-dev.js"></script> -->     <!-- normalizes device and document ready events, see README for details -->
+</head>
+
+<body>
+ <header>
+        <h1>My Favorite Recipes</h1>
+        <nav>
+
+            <ul>
+                <li><a href="#salad">Tomato-Mozarella Salad</a></li>
+                <li><a href="#eggs">Scrambled Eggs</a></li>
+                <li><a href="#pineapple">Pineapple</a></li>
+            </ul>
+        </nav>
+      </header>
+<article id="Salad">
+    <h2>Tomato-Mozarella Salad</h2>
+    <img src="images/tomato-mozarella-9h_small.jpg" alt="Tomato-Mozarella Salad" title="Tomato-Mozarella Salad">
+    <h3>List of Ingredients</h3>
+    <ul>
+       <li>Tomato</li>
+       <li>Cucumber</li>
+       <li>Mozarella</li>
+        <li>olive oil </li>
+        <li>balsamic vinegar </li>
+        <li>pepper </li>
+        <li>basil</li>
+
+
+    </ul>
+    <h3>This is how to make this recipe</h3>
+    <ul>
+       <li>Place tomato slices, alternating with cucumber slices and  mozzarella little blocks above  on a large serving platter </li>
+       <li>Combine oil, balsamic vinegar, salt, and pepper in a jar with a tight-fitting lid; shake well.</li>
+       <li>Drizzle over tomatoes and mozzarella; sprinkle with basil./li>
+        <li>Enjoy!   </li>
+
+    </ul>
+
+
+
+</article>
+<article id="eggs">
+    <h2>Scrambled Eggs</h2>
+    <img src="images/eggs-kj5_small.jpg" alt="Scrambled Eggs" title="Scrambled Eggs">
+    <h3>List of Ingredients</h3>
+    <ul>
+       <li>Eggs</li>
+       <li>Butter</li>
+       <li>Salt</li>
+
+    </ul>
+    <h3>This is how to make this recipe</h3>
+    <ul>
+       <li>Put the pan on the stove and heat slightly</li>
+       <li>Put a piece of butter ~30g on the pan, allow the butter to melt and grease all the pan </li>
+        <li>slightly increase heating to make the pan moderately hot, but not too hot </li>
+       <li>Accurately scramble eggs with the knife trying to keep the yolk intact and put the egg's contents on the pan. </li>
+        <li>add a little amount of salt ~1/8 of teaspoon  according to your taste </li>
+        <li>Wait for 2 -3 mins until the protein becomes white </li>
+        <li>take the dish from the stove and enjoy!</li>
+    </ul>
+</article>
+
+<article id="Pineapple">
+    <h2>Pineapple</h2>
+    <img src="images/pineapple-9h6_small.jpg" alt="Pineapple" title="Pineapple"/>
+    <h3>List of Ingredients</h3>
+    <ul>
+       <li>Pineapple</li>
+    </ul>
+    <h3>This is how to make this recipe</h3>
+    <ul>
+       <li>Wash pineapple</li>
+       <li>Cut it in slices</li>
+       <li>Enjoy!</li>
+    </ul>
+
+</article>
+
+<footer>
+<p>Author: licorne</p>
+&copy:2016
+<p>Author express the gratitude to <a href="http://www.bigfoto.com">BigFoto.com</a> for the images,used on this page</p>
+</footer>
+
+</body>
+</html>
